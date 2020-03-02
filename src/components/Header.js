@@ -21,16 +21,6 @@ const Header = props => (
           <a
             href="javascript:;"
             onClick={() => {
-              window.location.href = 'https://blog.geekazoid.at'
-            }}
-          >
-            Blog
-          </a>
-        </li>
-        <li>
-          <a
-            href="javascript:;"
-            onClick={() => {
               props.onOpenArticle('projects')
             }}
           >

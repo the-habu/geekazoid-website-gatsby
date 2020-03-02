@@ -88,19 +88,17 @@ class Main extends React.Component {
           <p>
             <a href="https://www.traceforce.live">TraceForce App</a>
             <br />
-            TraceForce is a digital mission map, a mobile application for your
-            smartphone, offering means to improve your game of airsoft &
-            scenario paintball.
-            <br />
-            It is a cross platform project, written in react-native with a node
-            backend.
+            TraceForce is a tracker and maps app designed for milsim, airsoft
+            and scenario paintball. It aims to provide a nextgen geospatial
+            infrastructure to increase efficiency and situational awareness
+            through position and information sharing.
           </p>
           <p>
             <a href="https://www.airsoftmoments.com">Airsoft Moments</a>
             <br />
-            Doing photography in airsoft, where to upload and share was a
-            prevalent question. So I created a multi photographer website with
-            wordpress, serving as a photography platform for the community.
+            Doing photography in airsoft, "where to upload" and share was a
+            prevalent question. Therefore I created a multi photographer website
+            with wordpress, serving as a photography platform for the community.
           </p>
           {close}
         </article>
