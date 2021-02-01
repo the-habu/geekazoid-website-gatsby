@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-globe" />
+      <span className="icon fa-code" />
     </div>
     <div className="content">
       <div className="inner">
@@ -17,7 +17,7 @@ const Header = props => (
     </div>
     <nav>
       <ul>
-        <li>
+        <li style={{ width: 148 }}>
           <a
             href="javascript:;"
             onClick={() => {
@@ -27,7 +27,7 @@ const Header = props => (
             Projects
           </a>
         </li>
-        <li>
+        <li style={{ width: 150 }}>
           <a
             href="javascript:;"
             onClick={() => {
