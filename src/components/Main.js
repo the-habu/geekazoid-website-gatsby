@@ -84,7 +84,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Current personal projects</h2>
+          <h2 className="major">Personal projects</h2>
           <p>
             <a href="https://www.traceforce.live">TraceForce App</a>
             <br />
@@ -96,7 +96,7 @@ class Main extends React.Component {
           <p>
             <a href="https://www.airsoftmoments.com">Airsoft Moments</a>
             <br />
-            Doing photography in airsoft, "where to upload" and share was a
+            Doing photography in airsoft, "where to upload and share" was a
             prevalent question. Therefore I created a multi photographer website
             with wordpress, serving as a photography platform for the community.
           </p>
