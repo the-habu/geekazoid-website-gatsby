@@ -17,7 +17,7 @@ const Header = props => (
     </div>
     <nav>
       <ul>
-        <li style={{ width: 148 }}>
+        {/* <li style={{ width: 148 }}>
           <a
             href="javascript:;"
             onClick={() => {
@@ -26,7 +26,7 @@ const Header = props => (
           >
             Projects
           </a>
-        </li>
+        </li> */}
         <li style={{ width: 150 }}>
           <a
             href="javascript:;"

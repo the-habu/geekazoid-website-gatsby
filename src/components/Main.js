@@ -67,9 +67,9 @@ class Main extends React.Component {
           <p>
             Dipl.-Ing. Andreas Bretschneider
             <br />
-            Sieveringer Straße 188/8 1190
+            Billrothweg 1
             <br />
-            Vienna, Austria
+            3400 Klosterneuburg, Austria
             <br />
             <a href="mailto:bretschneider.andreas@gmail.com">
               bretschneider.andreas@gmail.com
@@ -77,7 +77,7 @@ class Main extends React.Component {
           </p>
           {close}
         </article>
-        <article
+        {/* <article
           id="projects"
           className={`${this.props.article === 'projects' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
@@ -101,7 +101,7 @@ class Main extends React.Component {
             with wordpress, serving as a photography platform for the community.
           </p>
           {close}
-        </article>
+        </article> */}
       </div>
     )
   }
